@@ -1,0 +1,95 @@
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* #box1{
+ 
+    position: relative;
+    top: 400PX;
+    left: 500PX;
+background-color: yellow;
+width: 100px;
+height: 100px;
+} */
+
+
+.main div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid;
+}   
+
+/* .main .box{
+        background-color: yellow;
+}
+.main .box1{
+    background-color: green;
+    position: relative;
+    top: 50px;
+} */
+
+
+.main div:nth-child(even){
+    background-color: green;
+    position: relative;
+    top: 50px;
+}
+
+.main div:nth-child(odd){
+    position: relative;
+    top: 20px;
+    background-color: yellow;
+
+}
+/*
+page 2
+/*
+.main div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid;
+}   
+
+/* .main .box{
+        background-color: yellow;
+}
+.main .box1{
+    background-color: green;
+    position: relative;
+    top: 50px;
+} */
+
+
+
+
+
+
+.perent div{
+    font-size: larger;
+    border: 2px solid;
+     text-align: center;
+      color: rgb(252, 252, 252);
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    border: 3px solid;
+    border-color: black;
+    background-color: rgb(255, 3, 3);
+    position: relative;
+    top: 50px;
+}   
+.perent div:nth-child(even){
+    display: none;
+
+}
+
+
+
+
+
