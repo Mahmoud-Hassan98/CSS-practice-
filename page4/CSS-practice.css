@@ -37,12 +37,12 @@ height: 100px;
 .main div:nth-child(even){
     background-color: green;
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 
 .main div:nth-child(odd){
     position: relative;
-    top: 20px;
+    top :50px;
     background-color: yellow;
 
 }
@@ -56,19 +56,18 @@ page 2
     border: 2px solid;
 }   
 
-/* .main .box{
+main .box{
         background-color: yellow;
 }
 .main .box1{
     background-color: green;
     position: relative;
     top: 50px;
-} */
 
 
 
 
-
+}                                                  page 2  */
 
 .perent div{
     font-size: larger;
